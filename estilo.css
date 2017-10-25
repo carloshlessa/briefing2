@@ -8,6 +8,8 @@ html, body {
 	background: url('img/logo1.png') no-repeat;
 	background-size: contain;
 	color: transparent;
+
+
 }
 
 nav.navbar-transparente {
@@ -57,7 +59,8 @@ p {
 
 /*barra de navegacao*/
 
-.navbar-brand {                
+.navbar-brand { 
+
         position: relative;
         left: 0px;
         top: 5px;
@@ -69,7 +72,8 @@ p {
 /*galeria de foto*/
     body{
 			background: url('img/bg2.png');
-			background-size: 100%;
+			
+			background-image: auto;
 			background-attachment: fixed;
 
 		}
@@ -300,6 +304,12 @@ transition-delay:.2s;
 	}
 }
 
-     .delete {cursor: pointer;}
-         .chosen-results li {font-size: 11px;}
-         .table-produtos tbody tr td {font-size: 12px;}
+
+
+
+     .delete {cursor: pointer;
+     }
+     .chosen-results li {font-size: 11px;
+     }
+     .table-produtos tbody tr td {font-size: 12px;
+     }
