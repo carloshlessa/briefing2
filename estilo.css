@@ -302,6 +302,8 @@ transition-delay:.2s;
 	.footer-distributed .footer-left p.footer-links{
 		line-height: 1.8;
 	}
+	.img-logo { height: 65px;
+	}
 }
 
 
