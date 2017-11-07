@@ -76,7 +76,7 @@ p {
     body{
 			background: url('img/bg2.png');
 			
-			background-image: auto;
+			background-image: fixed;
 			background-attachment: fixed;
 
 		}
