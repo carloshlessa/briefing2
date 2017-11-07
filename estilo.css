@@ -4,6 +4,7 @@ html, body {
 }
 .img-logo {
 	height: 130px;
+
 	display: block;
 	background: url('img/logo1.png') no-repeat;
 	background-size: contain;
@@ -68,6 +69,7 @@ p {
         margin-left: 0px;
         padding-top: 0px;
         padding-left: 0px;
+
     }
 /*galeria de foto*/
     body{
@@ -287,7 +289,7 @@ transition-delay:.2s;
 
 /* If you don't want the footer to be responsive, remove these media queries */
 
-@media (max-width: 600px) {
+@media (max-width: 767px) {
 
 	.footer-distributed .footer-left,
 	.footer-distributed .footer-right{
@@ -302,9 +304,8 @@ transition-delay:.2s;
 	.footer-distributed .footer-left p.footer-links{
 		line-height: 1.8;
 	}
-	.img-logo { height: : 65px;
-	}
-	
+	.navbar-brand span.img-logo { height: : 65px; }
+
 	.img-logo {
 	height: 60px;
 	width: auto;
@@ -313,15 +314,12 @@ transition-delay:.2s;
 	background-size: contain;
 	color: transparent;
 	margin-left: 50px;
-	}
 }
 
-
-
-
-     .delete {cursor: pointer;
-     }
-     .chosen-results li {font-size: 11px;
-     }
-     .table-produtos tbody tr td {font-size: 12px;
-     }
+}
+ 	.delete {cursor: pointer;
+     	}
+     	.chosen-results li {font-size: 11px;
+     	}
+    	 .table-produtos tbody tr td {font-size: 12px;
+    	}
